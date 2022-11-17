@@ -24,10 +24,10 @@ function NewsletterSignup() {
       <form onSubmit={signupForNewsletterHandler}>
         <input
           ref={emailEl}
-          id="email"
-          type="email"
-          placeholder="Your email"
-          aria-label="Your email address."
+          id='email'
+          type='email'
+          placeholder='Your email'
+          aria-label='Your email address.'
         />
         <button>Sign Up</button>
       </form>
