@@ -4,7 +4,7 @@ import BlogLayout from './pages/BlogLayout';
 import BlogPostsPage, { loader as blogPostsLoader } from './pages/BlogPosts';
 import DeferredBlogPostsPage, {
   loader as deferredBlogPostsLoader,
-} from './pages/DeferredBlogPosts';
+} from './pages/DeferredBlogPostsPage';
 import ErrorPage from './pages/Error';
 import NewPostPage, { action as newPostAction } from './pages/NewPost';
 import { action as newsletterAction } from './pages/Newsletter';
