@@ -9,7 +9,7 @@ function MainNavigation() {
         <ul>
           <li>
             <NavLink
-              to="/"
+              to='/'
               className={({ isActive }) =>
                 isActive ? classes.active : undefined
               }
@@ -20,7 +20,7 @@ function MainNavigation() {
           </li>
           <li>
             <NavLink
-              to="/blog"
+              to='/blog'
               className={({ isActive }) =>
                 isActive ? classes.active : undefined
               }
